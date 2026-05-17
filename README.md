@@ -44,6 +44,7 @@ The objective of this project is to analyze e-commerce operations to understand:
 ---
 
 ## 📁 Project Structure
+```
 Olist-Ecommerce-Analysis/
 │
 ├── README.md
@@ -101,6 +102,7 @@ Olist-Ecommerce-Analysis/
     ├── delivery_analysis.png
     └── customer_analysis.png
 
+```
 
 ---
 
