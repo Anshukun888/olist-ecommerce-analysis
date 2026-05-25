@@ -161,7 +161,4 @@ Data cleaning and transformation, relational data modeling, SQL query writing (j
 ## About
 
 **Anshu Kunwar**
-3rd-year Bachelor's student and aspiring Data Analyst.
-Building a portfolio of end-to-end analytics projects using Excel, SQL, Python, and Power BI.
-
 [GitHub](https://github.com/Anshukun888) · [LinkedIn](https://linkedin.com/in/anshu-kunwar02) · anshukun777@gmail.com
