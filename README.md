@@ -157,6 +157,21 @@ Data cleaning and transformation, relational data modeling, SQL query writing (j
 
 ---
 
+## How to Open
+
+**Excel files:** Open with Microsoft Excel 2016 or later.
+
+**Power BI file:** Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) 
+(free) → File → Open → select `olist_dashboard.pbix`
+
+**SQL files:** Open with MySQL Workbench or any SQL client. 
+Run `schema.sql` first to create the database and load data, 
+then run `analysis_queries.sql` for the analysis queries.
+
+**Data Source:** Kaggle — Olist Brazilian E-commerce Dataset · 
+Period: 2016–2018 · Tools: Microsoft Excel, MySQL, SQL, Power BI Desktop
+
+
 ## About
 
 **Anshu Kunwar**  
