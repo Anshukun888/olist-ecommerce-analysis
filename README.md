@@ -33,8 +33,8 @@ Olist is a Brazilian e-commerce marketplace connecting small and medium sellers 
 
 As the Data Analyst on the BI team, the task was to analyze two years of transaction data and surface findings to guide Olist's 2019 growth strategy.
 
-**Role:** Data Analyst
-**Tools:** Microsoft Excel, MySQL, SQL, Power BI, DAX
+**Role:** Data Analyst  
+**Tools:** Microsoft Excel, MySQL, SQL, Power BI, DAX  
 **Dataset:** Olist Brazilian E-commerce (Kaggle), 96,000+ delivered orders across 8 relational tables
 
 ---
@@ -63,12 +63,12 @@ As the Data Analyst on the BI team, the task was to analyze two years of transac
 ## Project Workflow
 
 1. Downloaded Olist dataset from Kaggle (8 CSV files, 100K+ rows)
-2. Cleaned and transformed all 8 tables using Excel Power Query (handled nulls, standardized date formats, removed duplicates)
+2. Cleaned and transformed all 8 tables using Excel Power Query, handling nulls, standardizing date formats, and removing duplicates
 3. Designed relational schema and loaded cleaned data into MySQL using LOAD DATA LOCAL INFILE
-4. Wrote 16 SQL queries covering revenue trends, category performance, delivery analysis, and customer retention (including CTEs, window functions, and DATEDIFF calculations)
-5. Connected Power BI to MySQL via ODBC driver, built data model with 7 relationships and a DateTable
-6. Created 20+ DAX measures and a 4-page interactive dashboard with slicers, conditional formatting, and insight text boxes
-7. Documented findings and recommendations
+4. Wrote 16 SQL queries covering revenue trends, category performance, delivery analysis, and customer retention using CTEs, window functions, and DATEDIFF calculations
+5. Connected Power BI to MySQL via ODBC driver, built data model with 7 table relationships and a custom DateTable
+6. Created 20+ DAX measures and a 4-page interactive dashboard with slicers, conditional formatting, filled maps, and insight text boxes
+7. Documented findings and recommendations in a business-facing insights report
 
 ---
 
@@ -100,22 +100,22 @@ Key measures built in Power BI:
 - Customer Lifetime Value, Revenue Per Customer
 - Category Revenue Share, Cancellation Rate
 
-Full measures available in the .pbix file.
+Full measures available in the `.pbix` file.
 
 ---
 
 ## Dashboard Pages
 
-**Page 1: Executive Overview**
+**Page 1: Executive Overview**  
 KPI cards with vs prior year comparisons, monthly revenue trend, orders trend, top 5 states by revenue, filled map of revenue by state, year slicer.
 
-**Page 2: Revenue & Product Performance**
+**Page 2: Revenue & Product Performance**  
 Top 10 categories by revenue, top 10 seller cities by revenue, performance matrix table with conditional formatting showing revenue, review score, delivery days and late delivery rate per category.
 
-**Page 3: Customer Behavior**
+**Page 3: Customer Behavior**  
 Churn rate, repeat customers, repeat purchase rate, cancellation rate cards. Churned vs returning customers donut chart, review score distribution, avg delivery days vs avg review score scatter plot by state.
 
-**Page 4: Delivery & Operations**
+**Page 4: Delivery & Operations**  
 Avg delivery days, on-time delivery rate, late delivery rate cards. Late delivery rate by state bar chart, avg delivery days trend by month, filled map of avg delivery days by state.
 
 ---
@@ -128,15 +128,15 @@ Olist-Ecommerce-Analysis/
 ├── README.md
 │
 ├── data/
-│   ├── raw/                          # Original Kaggle CSV files
-│   └── cleaned/                      # Excel Power Query cleaned files
+│   ├── raw/                              # Original Kaggle CSV files
+│   └── cleaned/                          # Excel Power Query cleaned files
 │
 ├── sql/
-│   ├── schema.sql                    # Database creation and data loading
-│   └── analysis_queries.sql          # All 16 analysis queries
+│   ├── schema.sql                        # Database creation and data loading
+│   └── analysis_queries.sql              # All 16 analysis queries
 │
 ├── powerbi_dashboard/
-│   └── olist_dashboard.pbix          # Full Power BI dashboard file
+│   └── olist_dashboard.pbix              # Full Power BI dashboard file
 │
 ├── visuals/
 │   ├── Executive Overview.png
@@ -145,9 +145,8 @@ Olist-Ecommerce-Analysis/
 │   └── Delivery & Operations.png
 │
 └── documentation/
-    ├── business_questions.md
-    ├── data_dictionary.md
-    └── insights_report.md
+    ├── Business_Problems.docx            # Business scenario, role, and core problems
+    └── Insights and Recommendation.docx  # Key findings and recommendations
 ```
 
 ---
@@ -160,5 +159,6 @@ Data cleaning and transformation, relational data modeling, SQL query writing (j
 
 ## About
 
-**Anshu Kunwar**
+**Anshu Kunwar**  
+
 [GitHub](https://github.com/Anshukun888) · [LinkedIn](https://linkedin.com/in/anshu-kunwar02) · anshukun777@gmail.com
